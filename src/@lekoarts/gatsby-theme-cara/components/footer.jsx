@@ -6,7 +6,9 @@ const Footer = () => {
   const isDark = colorMode === `dark`
 
   return (
-    <h1>Hello world</h1>
+    <Box as="footer" variant="footer">
+      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+    </Box>
   )
 }
 
