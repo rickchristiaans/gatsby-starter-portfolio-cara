@@ -1,1 +1,1 @@
-Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+Copyright 2021. All rights reserved.
