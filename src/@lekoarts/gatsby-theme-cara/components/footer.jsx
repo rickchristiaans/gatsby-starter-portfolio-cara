@@ -1,21 +1,11 @@
 /** @jsx jsx */
-import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
+import { Box, Flex, Link, jsx } from "theme-ui"
 
 const Footer = <h1>Hello, world!</h1>;
 
 
   return (
     <Box as="footer" variant="footer">
-      <button
-        sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
-        onClick={toggleColorMode}
-        type="button"
-        aria-label="Toggle dark mode"
-      >
-        {isDark ? `Light` : `Dark`}
-      </button>
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
-      <br />
       <Flex
         sx={{
           justifyContent: `center`,
