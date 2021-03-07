@@ -1,11 +1,7 @@
 /** @jsx jsx */
 import { Box, Flex, Link, jsx } from "theme-ui"
 
-const Footer = <h1>Hello, world!</h1>;
-
-
-  return (
-    <Box as="footer" variant="footer">
+const Footer = <Box as="footer" variant="footer">
       <Flex
         sx={{
           justifyContent: `center`,
@@ -32,7 +28,5 @@ const Footer = <h1>Hello, world!</h1>;
         </Link>
       </Flex>
     </Box>
-  )
-}
 
 export default Footer
